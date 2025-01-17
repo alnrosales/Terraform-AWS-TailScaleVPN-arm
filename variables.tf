@@ -29,5 +29,5 @@ variable "price1" {
 }
 variable "price2" {
   type    = number
-  default = 0.0013
+  default = 0.0015
 }
