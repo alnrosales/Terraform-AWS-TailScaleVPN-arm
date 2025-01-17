@@ -1,0 +1,33 @@
+#SSH Public Key
+variable "key_code" {
+  type    = string
+  default = "tails"
+}
+variable "instance_type1" {
+  type    = string
+  default = "t4g.nano"
+}
+variable "instance_type2" {
+  type    = string
+  default = "t4g.nano"
+}
+variable "instance_profile" {
+  type    = string
+  default = "AmazonEC2RolesforSSM"
+}
+variable "userVPN1" {
+  type    = string
+  default = "IyEvYmluL2Jhc2gKeXVtIHVwZGF0ZSAteQp5dW0gaW5zdGFsbCBhd3NjbGkgbmV0aG9ncyAteQpzdWRvIHl1bSBpbnN0YWxsIHl1bS11dGlscyAteQpzdWRvIHl1bS1jb25maWctbWFuYWdlciAtLWFkZC1yZXBvIGh0dHBzOi8vcGtncy50YWlsc2NhbGUuY29tL3N0YWJsZS9hbWF6b24tbGludXgvMjAyMy90YWlsc2NhbGUucmVwbwpzdWRvIHl1bSBpbnN0YWxsIHRhaWxzY2FsZSAteQpzdWRvIHN5c3RlbWN0bCBlbmFibGUgLS1ub3cgdGFpbHNjYWxlZAplY2hvICduZXQuaXB2NC5pcF9mb3J3YXJkID0gMScgfCBzdWRvIHRlZSAtYSAvZXRjL3N5c2N0bC5kLzk5LXRhaWxzY2FsZS5jb25mCnN1ZG8gc3lzY3RsIC1wIC9ldGMvc3lzY3RsLmQvOTktdGFpbHNjYWxlLmNvbmYKc3VkbyB0YWlsc2NhbGUgdXAgLS1hdXRoa2V5PSQoYXdzIHNzbSBnZXQtcGFyYW1ldGVyIC0tbmFtZSBWUE4xIC0td2l0aC1kZWNyeXB0aW9uIC0tcXVlcnkgIlBhcmFtZXRlci5WYWx1ZSIgLS1vdXRwdXQgdGV4dCkgLS1ob3N0bmFtZT11cy13ZXN0LXZwbi0xIC0tc3NoIC0tYWR2ZXJ0aXNlLWV4aXQtbm9kZSAtLWFjY2VwdC1yb3V0ZXM="
+}
+variable "userVPN2" {
+  type    = string
+  default = "IyEvYmluL2Jhc2gKeXVtIHVwZGF0ZSAteQp5dW0gaW5zdGFsbCBhd3NjbGkgbmV0aG9ncyAteQpzdWRvIHl1bSBpbnN0YWxsIHl1bS11dGlscyAteQpzdWRvIHl1bS1jb25maWctbWFuYWdlciAtLWFkZC1yZXBvIGh0dHBzOi8vcGtncy50YWlsc2NhbGUuY29tL3N0YWJsZS9hbWF6b24tbGludXgvMjAyMy90YWlsc2NhbGUucmVwbwpzdWRvIHl1bSBpbnN0YWxsIHRhaWxzY2FsZSAteQpzdWRvIHN5c3RlbWN0bCBlbmFibGUgLS1ub3cgdGFpbHNjYWxlZAplY2hvICduZXQuaXB2NC5pcF9mb3J3YXJkID0gMScgfCBzdWRvIHRlZSAtYSAvZXRjL3N5c2N0bC5kLzk5LXRhaWxzY2FsZS5jb25mCnN1ZG8gc3lzY3RsIC1wIC9ldGMvc3lzY3RsLmQvOTktdGFpbHNjYWxlLmNvbmYKc3VkbyB0YWlsc2NhbGUgdXAgLS1hdXRoa2V5PSQoYXdzIHNzbSBnZXQtcGFyYW1ldGVyIC0tbmFtZSBWUE4yIC0td2l0aC1kZWNyeXB0aW9uIC0tcXVlcnkgIlBhcmFtZXRlci5WYWx1ZSIgLS1vdXRwdXQgdGV4dCkgLS1ob3N0bmFtZT11cy13ZXN0LXZwbi0yIC0tc3NoIC0tYWR2ZXJ0aXNlLWV4aXQtbm9kZSAtLWFjY2VwdC1yb3V0ZXM="
+}
+variable "price1" {
+  type    = number
+  default = 0.0017
+}
+variable "price2" {
+  type    = number
+  default = 0.0013
+}
